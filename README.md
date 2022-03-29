@@ -24,19 +24,24 @@ Time spent: **10** hours spent in total
   - [X] Affected source code: 
     - [Link 1](https://wpscan.com/vulnerability/8051e64b-f73e-45ce-a853-02b8e425155b)
     - [Link 2](https://klikki.fi/wordpress-4-2-core-stored-xss/)
-### 2. (Required) Vulnerability Name or ID
+### 2. (Required) WordPress 2.5-4.6 - Authenticated Stored Cross-Site Scripting via Image Filename
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+    - Vulnerability types: XSS or cross site scripting.
+    - Tested in version: 4.2
+    - Fixed in version: 4.6.1
   - [ ] GIF Walkthrough: 
+    - ![GIF #2](https://user-images.githubusercontent.com/62517289/160707738-2134113d-4179-4773-90a5-6e8241e3f07e.gif)
   - [ ] Steps to recreate: 
+    - First I uploaded an image as "attachment page" to the media library. This image contains malicious html script that dumps out cookies.
+    - Then this image is uploaded to the website. 
+    - When a user clicks on an image the script will execute and display important data. 
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://wpscan.com/vulnerability/e84eaf3f-677a-465a-8f96-ea4cf074c980)
+    - [Link 2](https://sumofpwn.nl/advisory/2016/persistent_cross_site_scripting_vulnerability_in_wordpress_due_to_unsafe_processing_of_file_names.html)
 ### 3. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
-    - Tested in version:
+    - Tested in version: 4.2
     - Fixed in version: 
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
