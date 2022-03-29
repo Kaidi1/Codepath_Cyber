@@ -10,7 +10,7 @@ Time spent: **10** hours spent in total
   - [X] Summary: 
     - Vulnerability types: XSS or cross site scripting. 
     - Tested in version: 4.2
-    - Fixed in version: Fixed in version 4.2.1
+    - Fixed in version: 4.2.1
   - [X] GIF Walkthrough: 
     - ![GIF #1](https://user-images.githubusercontent.com/62517289/160701662-fd6ea029-be1d-4d4e-8f31-a869cce1dabd.gif)
   - [X] Steps to recreate:
@@ -38,15 +38,22 @@ Time spent: **10** hours spent in total
   - [X] Affected source code:
     - [Link 1](https://wpscan.com/vulnerability/e84eaf3f-677a-465a-8f96-ea4cf074c980)
     - [Link 2](https://sumofpwn.nl/advisory/2016/persistent_cross_site_scripting_vulnerability_in_wordpress_due_to_unsafe_processing_of_file_names.html)
-### 3. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
+### 3. (Required) WordPress <= 4.2.2 - Authenticated Stored Cross-Site Scripting (XSS)
+  - [X] Summary: 
+    - Vulnerability types: XSS or cross site scripting.
     - Tested in version: 4.2
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - Fixed in version: 4.2.3
+  - [X] GIF Walkthrough: 
+    - ![GIF #3](https://user-images.githubusercontent.com/62517289/160724861-3b547e62-b486-4265-843c-d190a40a0022.gif)
+
+  - [X] Steps to recreate: 
+    - First this has to be done by someone with an elevated privilage, possibly hacker got elevated privilage through CSRF.
+    - Then I create a post with a link embedded inside the title of the post.
+    - Then I can either choose to have an alert on mouse over the title(which is scary) or I can decide to have a user click on the title. 
+    - The former will execute when the user simply hovers over the title, the latter will execute when user clicks on the title. 
+  - [X] Affected source code:
+    - [Link 1](https://wpscan.com/vulnerability/0f027d7d-674b-4a63-9603-25ea68069c1d)
+    - [Link 2](https://klikki.fi/wordpress-core-stored-xss/)
 ### 4. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
@@ -75,15 +82,13 @@ List any additional assets, such as scripts or files
 - [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
 - [WordPress Developer Reference](https://developer.wordpress.org/reference/)
 
-GIFs created with [LiceCap](http://www.cockos.com/licecap/).
-
 ## Notes
 
 Describe any challenges encountered while doing the work
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2022] [Kaidi Gao]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
