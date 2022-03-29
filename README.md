@@ -12,8 +12,7 @@ Time spent: **10** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: Fixed in version 4.2.1
   - [X] GIF Walkthrough: 
-    - [Kapture 2022-03-29 at 16 28 53](https://user-images.githubusercontent.com/62517289/160701662-fd6ea029-be1d-4d4e-8f31-a869cce1dabd.gif)
-
+    - [GIF #1](https://user-images.githubusercontent.com/62517289/160701662-fd6ea029-be1d-4d4e-8f31-a869cce1dabd.gif)
   - [X] Steps to recreate:
     - First I opened the wpdistillery.vm website through the web browser. 
     - Then I posted a comment in the comment box with a comment in the format 
