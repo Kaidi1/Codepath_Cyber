@@ -23,8 +23,8 @@ Time spent: **10** hours spent in total
     - Once the admin clicks view page or view comment, the script will be run. 
     - This script can be used to do alot of malicious stuff. 
   - [X] Affected source code: 
-    - [Link 1](https://klikki.fi/wordpress-4-2-core-stored-xss/)
-    - [Link 2](https://wpscan.com/vulnerability/8051e64b-f73e-45ce-a853-02b8e425155b)
+    - [Link 1](https://wpscan.com/vulnerability/8051e64b-f73e-45ce-a853-02b8e425155b)
+    - [Link 2](https://klikki.fi/wordpress-4-2-core-stored-xss/)
 ### 2. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
