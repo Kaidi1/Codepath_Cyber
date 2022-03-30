@@ -28,7 +28,7 @@ Time spent: **10** hours spent in total
   - [X] Summary: 
     - Vulnerability types: XSS or cross site scripting.
     - Tested in version: 4.2
-    - Fixed in version: 4.6.1
+    - Fixed in version: 4.2.10
   - [X] GIF Walkthrough: 
     - ![GIF #2](https://user-images.githubusercontent.com/62517289/160707738-2134113d-4179-4773-90a5-6e8241e3f07e.gif)
   - [X] Steps to recreate: 
