@@ -31,11 +31,12 @@ Description:
 
 ## Green
 
-Vulnerability #1: __________________
+Vulnerability #1: Cross-Site Scripting (XSS)
 
-Description:
+Description:  A stored xss can be put into the website through the Feedback portion of the main menu. This was probably left there because the comment was not properly sanitized and escaped. 
 
-<img src="green-vuln1.gif">
+<img width="300" alt="Screen Shot 2022-04-07 at 22 33 43" src="https://user-images.githubusercontent.com/62517289/162351906-4a1a75f5-389e-4440-8641-8890094f98e2.png">
+
 
 Vulnerability #2: __________________
 
