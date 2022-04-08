@@ -33,10 +33,9 @@ Description:
 
 Vulnerability #1: Cross-Site Scripting (XSS)
 
-Description:  A stored xss can be put into the website through the Feedback portion of the main menu. This was probably left there because the comment was not properly sanitized and escaped. 
+Description:  A stored xss can be put into the website through the Contact Us portion of the main menu. This was probably left there because the comment was not properly sanitized and escaped. 
 
-<img width="300" alt="Screen Shot 2022-04-07 at 22 33 43" src="https://user-images.githubusercontent.com/62517289/162351906-4a1a75f5-389e-4440-8641-8890094f98e2.png">
-
+<img width="300" alt="Screen Shot 2022-04-07 at 22 37 02" src="https://user-images.githubusercontent.com/62517289/162352116-d6812f98-ed8a-4c3b-a058-da5cbeb5fa41.png">
 
 Vulnerability #2: __________________
 
