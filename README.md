@@ -52,7 +52,9 @@ Vulnerability #1: Insecure Direct Object Reference (IDOR)
 
 Description: The Salesperson page has an id field where the user can enter the specified ID. Specifically, users can access Salesperson id = 10 that was not supposed to be public and visible yet. This can be done by changing the id to 11 as well. 
 
-<img width="300" alt="Screen Shot 2022-04-07 at 22 21 50" src="https://user-images.githubusercontent.com/62517289/162350638-4c2c24ac-d215-4e83-82b7-d6bc3c304e44.png"> <img width="300" alt="Screen Shot 2022-04-07 at 22 25 13" src="https://user-images.githubusercontent.com/62517289/162350941-9a95be32-2781-4d0a-b49a-c6ce6394e763.png"><img width="300" alt="Screen Shot 2022-04-07 at 23 51 05" src="https://user-images.githubusercontent.com/62517289/162359183-5e0948c7-2fc8-4d6d-8591-1f155cb01152.png">
+<img width="200" alt="Screen Shot 2022-04-07 at 22 21 50" src="https://user-images.githubusercontent.com/62517289/162350638-4c2c24ac-d215-4e83-82b7-d6bc3c304e44.png">
+<img width="200" alt="Screen Shot 2022-04-07 at 22 25 13" src="https://user-images.githubusercontent.com/62517289/162350941-9a95be32-2781-4d0a-b49a-c6ce6394e763.png">
+<img width="200" alt="Screen Shot 2022-04-07 at 23 51 05" src="https://user-images.githubusercontent.com/62517289/162359183-5e0948c7-2fc8-4d6d-8591-1f155cb01152.png">
 
 
 
